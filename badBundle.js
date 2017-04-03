@@ -52,8 +52,8 @@
 	/* eslint-disable global-require,lodash-fp/use-fp */
 	module.exports = {
 	  _: __webpack_require__(/*! lodash/lodash.min.js */ 1),
-	  oldLodash: __webpack_require__(/*! old-lodash */ 3).oldLodash,
-	  newLodash: __webpack_require__(/*! new-lodash */ 5).newLodash,
+	  oldLodash: __webpack_require__(/*! ./old-lodash */ 3).oldLodash,
+	  newLodash: __webpack_require__(/*! ./new-lodash */ 5).newLodash,
 	  moment: __webpack_require__(/*! moment */ 7)
 	};
 
@@ -220,9 +220,9 @@
 
 /***/ },
 /* 3 */
-/*!*******************************!*\
-  !*** ./~/old-lodash/index.js ***!
-  \*******************************/
+/*!*****************************!*\
+  !*** ./old-lodash/index.js ***!
+  \*****************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -236,9 +236,9 @@
 
 /***/ },
 /* 4 */
-/*!****************************************!*\
-  !*** ./~/old-lodash/~/lodash/index.js ***!
-  \****************************************/
+/*!**************************************!*\
+  !*** ./old-lodash/~/lodash/index.js ***!
+  \**************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module, global) {/**
@@ -12593,13 +12593,13 @@
 	  }
 	}.call(this));
 
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../webpack/buildin/module.js */ 2)(module), (function() { return this; }())))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../~/webpack/buildin/module.js */ 2)(module), (function() { return this; }())))
 
 /***/ },
 /* 5 */
-/*!*******************************!*\
-  !*** ./~/new-lodash/index.js ***!
-  \*******************************/
+/*!*****************************!*\
+  !*** ./new-lodash/index.js ***!
+  \*****************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -12612,9 +12612,9 @@
 
 /***/ },
 /* 6 */
-/*!*********************************************!*\
-  !*** ./~/new-lodash/~/lodash/lodash.min.js ***!
-  \*********************************************/
+/*!*******************************************!*\
+  !*** ./new-lodash/~/lodash/lodash.min.js ***!
+  \*******************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module, global) {/**
@@ -12742,7 +12742,7 @@
 	"\xd8":"O","\xf2":"o","\xf3":"o","\xf4":"o","\xf5":"o","\xf6":"o","\xf8":"o","\xd9":"U","\xda":"U","\xdb":"U","\xdc":"U","\xf9":"u","\xfa":"u","\xfb":"u","\xfc":"u","\xdd":"Y","\xfd":"y","\xff":"y","\xc6":"Ae","\xe6":"ae","\xde":"Th","\xfe":"th","\xdf":"ss"},Ut={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;","`":"&#96;"},Dt={"&amp;":"&","&lt;":"<","&gt;":">","&quot;":'"',"&#39;":"'","&#96;":"`"},Ft={"function":true,object:true},$t={"\\":"\\","'":"'","\n":"n","\r":"r","\u2028":"u2028","\u2029":"u2029"
 	},Nt=parseFloat,Pt=parseInt,Zt=Ft[typeof exports]&&exports&&!exports.nodeType?exports:T,Tt=Ft[typeof module]&&module&&!module.nodeType?module:T,qt=Tt&&Tt.exports===Zt?Zt:T,Vt=R(Ft[typeof self]&&self),Kt=R(Ft[typeof window]&&window),Gt=R(Ft[typeof this]&&this),Jt=R(Zt&&Tt&&typeof global=="object"&&global)||Kt!==(Gt&&Gt.window)&&Kt||Vt||Gt||Function("return this")(),Yt=Z();(Kt||Vt||{})._=Yt, true? !(__WEBPACK_AMD_DEFINE_RESULT__ = function(){return Yt}.call(exports, __webpack_require__, exports, module), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)):Zt&&Tt?(qt&&((Tt.exports=Yt)._=Yt),
 	Zt._=Yt):Jt._=Yt}).call(this);
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../webpack/buildin/module.js */ 2)(module), (function() { return this; }())))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../../../~/webpack/buildin/module.js */ 2)(module), (function() { return this; }())))
 
 /***/ },
 /* 7 */
