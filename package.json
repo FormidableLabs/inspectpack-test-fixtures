@@ -1,6 +1,6 @@
 {
   "name": "inspectpack-test-fixtures",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Test fixtures/bundles for inspectpack functional tests",
   "main": "index.js",
   "license": "MIT",
