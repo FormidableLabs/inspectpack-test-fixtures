@@ -6,14 +6,14 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "install-old-lodash": "cd old-lodash && yarn || npm install && cd ../",
     "install-new-lodash": "cd new-lodash && yarn || npm install && cd ../",
-    "postinstall": "npm run install-new-lodash && npm run install-old-lodash",
+    "postinstall": "npm run install-new-lodash",
     "version": "npm run build && git add badBundle.js"
   },
   "dependencies": {
     "lodash": "4.15.0",
     "moment": "^2.18.1",
-    "webpack": "^1.14.0"
+    "old-lodash": "1.0.1",
+    "webpack": "^2.2.0"
   }
 }
