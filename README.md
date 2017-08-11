@@ -19,4 +19,6 @@ We have a `version` script that builds stuff.
 
 ```
 $ npm version [<VERSION_STRING> | major | minor | patch]
+$ npm publish
+$ git push && git push --tags
 ```
