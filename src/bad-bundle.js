@@ -4,6 +4,6 @@
 module.exports = {
   _: require("lodash/lodash.min.js"),
   oldLodash: require("old-lodash"),
-  newLodash: require("./new-lodash").newLodash,
+  newLodash: require("../new-lodash").newLodash,
   moment: require("moment")
 };
