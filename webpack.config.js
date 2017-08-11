@@ -6,7 +6,7 @@ const webpack = require('webpack');
 module.exports = {
   context: __dirname,
   entry: {
-    "bad-bundle": './bad-bundle.js'
+    "bad-bundle": './src/bad-bundle.js'
   },
   output: {
     path: path.join(__dirname, "dist"),
