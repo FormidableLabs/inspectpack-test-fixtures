@@ -12,3 +12,11 @@ Our basic directories:
 
 * `src/bad-bundle.js` -> `dist/bad-bundle.js`
 * `built/basic-lodash-object-expression.js`
+
+## Releases
+
+We have a `version` script that builds stuff.
+
+```
+$ npm version [<VERSION_STRING> | major | minor | patch]
+```
