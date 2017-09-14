@@ -12,5 +12,12 @@ module.exports = {
     path: path.join(__dirname, "dist"),
     pathinfo: true,
     filename: '[name].js'
-  }
+  },
+  plugins:[
+    new webpack.optimize.CommonsChunkPlugin({
+      names: ["empty-manifest"],
+      filename: "[name].js",
+      minChunks: Infinity
+    })
+  ]
 };

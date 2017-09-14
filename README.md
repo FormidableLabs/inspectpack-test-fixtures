@@ -10,7 +10,10 @@ Our basic directories:
 * `src`: Source code that we build to `dist`.
 * `built`: Pre-built, manually tweaked bundles.
 
+And inputs/outputs:
+
 * `src/bad-bundle.js` -> `dist/bad-bundle.js`
+* (_config_) -> `dist/empty-manifest.js`
 * `built/basic-lodash-object-expression.js`
 
 ## Releases
